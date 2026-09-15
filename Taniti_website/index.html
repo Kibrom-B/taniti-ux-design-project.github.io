@@ -1,78 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
       rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap"
+      rel="stylesheet"
     />
-</head>
-<body>
-    <header>
-        <div>
-            <div class="header">
-            <h3 class="island-name">Visit Taniti</h3>
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h1 class="island-name">Visit Taniti</h1>
+      </div>
 
-        </div>
-        <div>
-            <nav class="navigation">
-            <a href="index.html">Home</a>
-            <a href="pages/explore.html">Explore</a>
-            <a href="pages/dining.html">Dining</a>
-            <a href="pages/lodging.html">Lodging</a>
-            <a href="pages/transportation.html">Transportation</a>
-            <a href="pages/entertainment.html">Entertainment</a>
-            <a href="pages/contact.html">Contact</a>
-            <a href="pages/faqs.html">FAQs</a>
-        </nav>
-        </div>
-        </div>
-        
-        
+      <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="pages/explore.html">Explore</a>
+        <a href="pages/dining.html">Dining</a>
+        <a href="pages/lodging.html">Lodging</a>
+        <a href="pages/transportation.html">Transportation</a>
+        <a href="pages/entertainment.html">Entertainment</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="pages/faqs.html">FAQs</a>
+      </nav>
+      <!-- <div>
+             <button></button>
+        </div> -->
     </header>
     <main>
-        <section id="main-section">
-            <div>
-                <img class="hero" src="images/taniti_hero.jpg" alt="">
-                <div>
-                    <h1>DISCOVER SOMETHING NEW IN TANITI</h1>
-                    <button>Explore Activities</button>
-                </div>
-            </div>
+      <section id="main-section">
+        <div class="hero">
+          <img class="hero-image" src="images/taniti_hero.jpg" alt="" />
+          <div class="hero-text-container">
+            <h1>DISCOVER SOMETHING NEW IN <span>TANITI</span></h1>
+            <button class="explore">Explore Activities</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mid-section">
+          <h1 class="explore-taniti">EXPLORE TANITI</h1>
+          <div class="mid-section-div1">
+            <button class="mid-section-1">Nature</button>
+            <button class="mid-section-1">Water Activities</button>
+            <button class="mid-section-1">Culture & History</button>
+          </div>
+          <div class="mid-section-div1">
+            <button class="mid-section-2">Adventure & Recreation</button>
+            <button class="mid-section-2">Entertainment</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="hero">
+          <img class="hero-image" src="images/home_image.jpg" alt="" />
 
-        </section>
-        <section>
-            <div>
-                <h1>EXPLORE TANITI</h1>
-                <button>Nature</button>
-                <button>Water Activities</button>
-                <button>Culture & History</button>
-                <button>Adventure & Recreation</button>
-                <button>Entertainment</button>
-            </div>
-        </section>
-        <section>
-            <div>
-                <img src="images/home_image.jpg" alt="">
-            </div>
-            <div>
-                    <h1>MAKE THE MOST OF YOUR VISIT</h1>
-                    <button>Lodging</button>
-                    <button>Visitor Info</button>
-                    <button>Plan Your Visit</button>
-            </div>
-        </section>
+          <div class="hero-text-container">
+            <h1>MAKE THE MOST OF YOUR VISIT</h1>
+            <button class="explore">Lodging</button>
+            <button class="explore">Visitor Info</button>
+            <button class="explore">Plan Your Visit</button>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
+    <footer class="footer">
+      <div class="footer-link">
         <p>&copy; 2026 Visit Taniti</p>
         <a href="pages/about.html">About</a>
         <a href="pages/contact.html">Contact</a>
+      </div>
+      <div></div>
+      <div>
+        <h1 class="island-name-footer">Visit Taniti</h1>
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>

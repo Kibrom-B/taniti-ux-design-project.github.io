@@ -1,0 +1,183 @@
+* {
+    font-family: lusitana, "Roboto";
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    /* max-width: 100%; */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(16, 77, 128);
+    width: 100%;
+    height: 120px;
+    z-index: 1000;
+}
+
+a {
+    color: white;
+    padding-left: 30px;
+    font-weight: bold;
+    text-decoration:none;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.navigation {
+    padding-top: 50px;
+    
+}
+
+.island-name {
+    /* color: #E8C547; */
+    color: white;
+    padding-left: 20px;
+    font-size: 50px;
+    
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+
+}
+
+.hero-text-container {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(3, 61, 133, 0.5); */
+    padding: 40px;
+    border-radius: 5px;
+
+}
+
+.explore {
+    /* background-color: #E8C547; */
+    background-color: transparent;
+    color: white;
+    border-color: #E8C547;
+    outline: 2px solid #E8C547;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 30px;
+    font-weight: bolder;
+    border: none;
+    font-family: roboto;
+}
+
+main {
+    margin: 0;
+}
+.mid-section {
+    padding: 60px 10px 60px 20px ;
+    /* background-color: rgb(3, 61, 133); */
+
+    
+    
+}
+
+.explore-taniti {
+    text-align: center;
+    margin-bottom: 20px;
+    /* color: rgb(3, 61, 133); */
+    color: rgb(16, 77, 128);
+}
+
+.mid-section-1 {
+    background-color: transparent;
+    color: rgb(16, 77, 128);
+    border-color: #E8C547;
+    outline: 2px solid #E8C547;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 30px;
+    font-weight: bolder;
+    border: none;
+    font-family: roboto;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    min-width: 300px;
+    
+}
+
+.mid-section-div1 {
+    display: flex;
+    justify-content:center;
+    
+}
+
+.mid-section-2 {
+    background-color: transparent;
+    color: rgb(3, 61, 133);
+    border-color: #E8C547;
+    outline: 2px solid #E8C547;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 30px;
+    font-weight: bolder;
+    border: none;
+    font-family: roboto;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    min-width: 300px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    background-color: #104d80;
+    width: 100%;
+    height: 120px;
+    z-index: 1000;
+}
+
+footer p {
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.island-name-footer {
+    /* color: #E8C547; */
+    color: white;
+    padding-left: 280px;
+    padding-top: 60px;
+    
+}
+
+.footer-link {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
