@@ -19,20 +19,27 @@
       </div>
 
       <nav class="navigation">
-        <a href="index.html">Home</a>
-        <a href="pages/explore.html">Explore</a>
-        <a href="pages/dining.html">Dining</a>
-        <a href="pages/lodging.html">Lodging</a>
-        <a href="pages/transportation.html">Transportation</a>
-        <a href="pages/entertainment.html">Entertainment</a>
-        <a href="pages/contact.html">Contact</a>
-        <a href="pages/faqs.html">FAQs</a>
+        <a href="../index.html">Home</a>
+        <a
+          href="explore.html"
+          style="
+            color: rgb(16, 77, 128);
+            background-color: #e8c547;
+            border-radius: 30px;
+          "
+          >Explore</a
+        >
+        <a href="dining.html">Dining</a>
+        <a href="lodging.html">Lodging</a>
+        <a href="transportation.html">Transportation</a>
+        <a href="contact.html">Contact</a>
+        <a href="faqs.html">FAQs</a>
       </nav>
     </header>
     <main>
       <section>
         <nav class="breadcrumb">
-          <a href="index.html">Home</a>
+          <a href="../index.html">Home</a>
           <span> &gt; </span>
           <span>Explore</span>
         </nav>
@@ -44,8 +51,8 @@
         </div>
         <div class="explore-grid">
           <div class="card">
-            NATURE
-            <div class="info-grid">
+            <h3>NATURE</h3>
+            <div class="info-grid" id="nature">
               <div class="info-card">
                 <img
                   src="/Taniti_website/images/beach.jpg"
@@ -77,15 +84,17 @@
             </div>
           </div>
           <div class="card">
-            WATER ACTIVITIES
-            <div class="info-grid">
+            <h3>WATER ACTIVITIES</h3>
+            <div class="info-grid" id="water-activities">
               <div class="info-card">
                 <img
                   src="/Taniti_website/images/snorkeling.jpg"
                   alt="Taniti water snorkeling"
                 />
                 <h3>Snorkeling</h3>
-                <p>Explore Taniti's waters and discover its marine environment.</p>
+                <p>
+                  Explore Taniti's waters and discover its marine environment.
+                </p>
               </div>
 
               <div class="info-card">
@@ -103,82 +112,13 @@
                   alt="Taniti boat tours"
                 />
                 <h3>Boat Tours</h3>
-                <p>
-                  Explore Taniti's coastline and scenic waters by boat.
-                </p>
-              </div>
-            </div>
-            
-          </div>
-          <div class="card">
-            ADVENTURE & RECREATION
-            <div class="info-grid">
-              <div class="info-card">
-                <img
-                  src="/Taniti_website/images/zip-line.jpg"
-                  alt="Zip-Lining"
-                />
-                <h3>Zip-Lining</h3>
-                <p>Experience an exciting adventure through Taniti's rainforest.</p>
-              </div>
-
-              <div class="info-card">
-                <img
-                  src="/Taniti_website/images/helicopter.jpg"
-                  alt="Taniti Helicopter Tour"
-                />
-                <h3>Helicopter Tours</h3>
-                <p>Enjoy breathtaking aerial views of Taniti's landscape.</p>
-              </div>
-
-              <div class="info-card">
-                <img
-                  src="/Taniti_website/images/golf.jpg"
-                  alt="Taniti Golf"
-                />
-                <h3>Golf</h3>
-                <p>
-                  Enjoy a nine-hole golf course coming next year.
-                </p>
+                <p>Explore Taniti's coastline and scenic waters by boat.</p>
               </div>
             </div>
           </div>
           <div class="card">
-            ENTERTAINMENT
-            <div class="info-grid">
-              <div class="info-card">
-                <img
-                  src="/Taniti_website/images/brewery.jpg"
-                  alt="Taniti Pubs & Microbrewery"
-                />
-                <h3>Pubs & Microbrewery</h3>
-                <p>Relax and enjoy Taniti's local pubs and microbrewery.</p>
-              </div>
-
-              <div class="info-card">
-                <img
-                  src="/Taniti_website/images/bowling.jpg"
-                  alt="Taniti Bowling"
-                />
-                <h3>Movies, Arcade & Bowling</h3>
-                <p>Enjoy movies, games, and bowling during your visit.</p>
-              </div>
-
-              <div class="info-card">
-                <img
-                  src="/Taniti_website/images/dance club.jpg"
-                  alt="Taniti Dance Club"
-                />
-                <h3>Dance Club</h3>
-                <p>
-                  Enjoy music and dancing during your visit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            CULTURE & HISTORY
-            <div class="info-grid">
+            <h3>CULTURE & HISTORY</h3>
+            <div class="info-grid" id="culture-history">
               <div class="info-card">
                 <img
                   src="/Taniti_website/images/museum.jpg"
@@ -206,6 +146,67 @@
                 <p>
                   Learn about the island's indigenous culture and traditions.
                 </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>ADVENTURE & RECREATION</h3>
+            <div class="info-grid" id="adventure">
+              <div class="info-card">
+                <img
+                  src="/Taniti_website/images/zip-line.jpg"
+                  alt="Zip-Lining"
+                />
+                <h3>Zip-Lining</h3>
+                <p>
+                  Experience an exciting adventure through Taniti's rainforest.
+                </p>
+              </div>
+
+              <div class="info-card">
+                <img
+                  src="/Taniti_website/images/helicopter.jpg"
+                  alt="Taniti Helicopter Tour"
+                />
+                <h3>Helicopter Tours</h3>
+                <p>Enjoy breathtaking aerial views of Taniti's landscape.</p>
+              </div>
+
+              <div class="info-card">
+                <img src="/Taniti_website/images/golf.jpg" alt="Taniti Golf" />
+                <h3>Golf</h3>
+                <p>Enjoy a nine-hole golf course coming next year.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>ENTERTAINMENT</h3>
+            <div class="info-grid" id="entertainment">
+              <div class="info-card">
+                <img
+                  src="/Taniti_website/images/brewery.jpg"
+                  alt="Taniti Pubs & Microbrewery"
+                />
+                <h3>Pubs & Microbrewery</h3>
+                <p>Relax and enjoy Taniti's local pubs and microbrewery.</p>
+              </div>
+
+              <div class="info-card">
+                <img
+                  src="/Taniti_website/images/bowling.jpg"
+                  alt="Taniti Bowling"
+                />
+                <h3>Movies, Arcade & Bowling</h3>
+                <p>Enjoy movies, games, and bowling during your visit.</p>
+              </div>
+
+              <div class="info-card">
+                <img
+                  src="/Taniti_website/images/dance club.jpg"
+                  alt="Taniti Dance Club"
+                />
+                <h3>Dance Club</h3>
+                <p>Enjoy music and dancing during your visit.</p>
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,23 +19,31 @@
       </div>
 
       <nav class="navigation">
-        <a href="index.html">Home</a>
+        <a
+          href="index.html"
+          style="
+            color: rgb(16, 77, 128);
+            background-color: #e8c547;
+            border-radius: 30px;
+          "
+          >Home</a
+        >
         <a href="pages/explore.html">Explore</a>
         <a href="pages/dining.html">Dining</a>
         <a href="pages/lodging.html">Lodging</a>
         <a href="pages/transportation.html">Transportation</a>
-        <a href="pages/entertainment.html">Entertainment</a>
         <a href="pages/contact.html">Contact</a>
         <a href="pages/faqs.html">FAQs</a>
       </nav>
     </header>
     <main>
-      <section id="main-section">
+      <section>
         <div class="hero">
-          <img class="hero-image" src="images/taniti_hero.jpg" alt="" />
+          <img class="hero-image" src="images/beach2.png" alt="" />
           <div class="hero-text-container">
-            <h1>DISCOVER SOMETHING NEW IN <span>TANITI</span></h1>
-            <button class="explore">Explore Activities</button>
+            <h1>DISCOVER SOMETHING NEW IN TANITI</h1>
+              <a
+              href="pages/explore.html" class="explore-activities">Explore Activities</a>
           </div>
         </div>
       </section>
@@ -43,13 +51,21 @@
         <div class="mid-section">
           <h1 class="explore-taniti">EXPLORE TANITI</h1>
           <div class="mid-section-div1">
-            <button class="mid-section-1">Nature</button>
-            <button class="mid-section-1">Water Activities</button>
-            <button class="mid-section-1">Culture & History</button>
+            <a href="pages/explore.html#nature" class="mid-section-1">Nature</a>
+            <a href="pages/explore.html#water-activities" class="mid-section-1"
+              >Water Activities</a
+            >
+            <a href="pages/explore.html#culture-history" class="mid-section-1"
+              >Culture & History</a
+            >
           </div>
           <div class="mid-section-div1">
-            <button class="mid-section-2">Adventure & Recreation</button>
-            <button class="mid-section-2">Entertainment</button>
+            <a href="pages/explore.html#adventure" class="mid-section-1"
+              >Adventure & Recreation</a
+            >
+            <a href="pages/explore.html#entertainment" class="mid-section-1"
+              >Entertainment</a
+            >
           </div>
         </div>
       </section>
