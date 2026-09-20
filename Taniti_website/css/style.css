@@ -285,17 +285,29 @@ footer p {
   font-weight: bold;
 }
 
+/* .lodging-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
 .dining-info-grid {
   display: grid;
   grid-template-columns: repeat(5, auto);
   gap: 20px;
 }
 
+
 .transportation-info-grid {
   display: grid;
   grid-template-columns: repeat(3, auto);
   gap: 20px;
   margin-bottom: 60px;
+}
+
+.lodging-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
 }
 
 .transp-info-grid-title {
