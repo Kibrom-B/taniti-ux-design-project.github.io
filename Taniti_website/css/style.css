@@ -73,6 +73,16 @@ a:hover {
   font-size: 50px;
 }
 
+.logo {
+    font-size: 45px;
+    color:white
+}
+.logo:hover {
+    background-color: transparent;
+    color:#e8c547;
+    
+}
+
 .hero {
   position: relative;
   text-align: center;
@@ -247,6 +257,11 @@ footer a {
   padding-left: 10px;
 }
 
+footer a:hover {
+    background-color: transparent;
+    color:#e8c547
+}
+
 footer p {
   margin-bottom: 10px;
 }
@@ -260,7 +275,12 @@ footer p {
   border-radius: 5px;
 }
 
-.container-1-button button {
+.container-1-button {
+  display: flex;
+  justify-content: center;
+}
+
+.explore {
   margin: 25px;
   min-width: 200px;
 }
@@ -285,17 +305,11 @@ footer p {
   font-weight: bold;
 }
 
-/* .lodging-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
-
 .dining-info-grid {
   display: grid;
   grid-template-columns: repeat(5, auto);
   gap: 20px;
 }
-
 
 .transportation-info-grid {
   display: grid;
@@ -305,19 +319,19 @@ footer p {
 }
 
 .lodging-info-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 2fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr 1fr;
 }
 
 .transp-info-grid-title {
-    color: #104d80;
-    text-align: center;
-    margin-top: 30px;
+  color: #104d80;
+  text-align: center;
+  margin-top: 30px;
 }
 
 h3 {
-    color:#104d80
+  color: #104d80;
 }
 
 .page-description {
@@ -331,6 +345,16 @@ h3 {
   gap: 20px;
   background-color: rgb(234, 243, 252);
   border-radius: 5px;
+}
+
+.info-grid-1 {
+    background-color: rgb(234, 243, 252);
+}
+
+.question {
+    color: #b18e10;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .info-card {
@@ -359,7 +383,7 @@ h3 {
   color: rgb(16, 77, 128);
 }
 
-.info-grid:target {
+.info-grid:target, .info-grid-1:target{
   border: 3px solid #d4a017;
   border-radius: 12px;
   padding: 20px;
