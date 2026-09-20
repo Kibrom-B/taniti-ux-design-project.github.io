@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="/Taniti_website/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <a href="../index.html" class="logo">Visit Taniti</a>
+      </div>
+
+      <nav class="navigation">
+        <a href="../index.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="dining.html">Dining</a>
+        <a href="lodging.html">Lodging</a>
+        <a href="transportation.html">Transportation</a>
+        <a
+          href="contact.html"
+          style="
+            color: rgb(16, 77, 128);
+            background-color: #e8c547;
+            border-radius: 30px;
+          "
+          >Contact</a
+        >
+        <a href="faqs.html">FAQs</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <nav class="breadcrumb">
+          <a href="../index.html">Home</a>
+          <span> &gt; </span>
+          <span>Contact</span>
+        </nav>
+        <div>
+          <h1 class="explore-taniti">CONTACT</h1>
+        </div>
+        <form action="">
+          <div class="form-container">
+            <label for="first-name">First Name:</label>
+            <input
+              type="text"
+              name="first-name"
+              class="first-name"
+              id="first-name"
+              placeholder="Your Name"
+            />
+
+            <label for="last-name">Last Name:</label>
+            <input
+              type="text"
+              name="last-name"
+              class="last-name"
+              id="last-name"
+              placeholder="Your Last Name"
+            />
+
+            <label for="email">Enter Email:</label>
+            <input
+              type="email"
+              name="email"
+              class="js-email"
+              id="email"
+              placeholder="Enter Your Email"
+            />
+
+            <label for="confirm-email">Confirm Email:</label>
+            <input
+              type="email"
+              name="confirm-email"
+              class="js-confirm-email"
+              id="confirm-email"
+              placeholder="Confirm Your Email"
+            />
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              cols="50"
+              placeholder="Your Message"
+            ></textarea>
+            <div>
+              <button onclick="confirmEmail()" class="submit">SUBMIT</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-link">
+        <p>&copy; 2026 Visit Taniti</p>
+         <a href="faqs.html#about">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div></div>
+      <div>
+        <h1 class="island-name-footer">Visit Taniti</h1>
+      </div>
+    </footer>
+  </body>
+</html>
